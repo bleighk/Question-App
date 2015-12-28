@@ -3,7 +3,7 @@ class QuestionsController < ApplicationController
 	def show
 		@question = Question.find(params[:id])
 	end
-	
+
 	def create
 		Question.create(question_params)
 
@@ -15,5 +15,7 @@ class QuestionsController < ApplicationController
 	def question_params
 		params.require(:question).permit(:email, :body)
 	end
+
+
 
 end
