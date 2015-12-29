@@ -9,6 +9,8 @@ Project can be accessed at: https://warm-mesa-2628.herokuapp.com/
 -------
 1. Generated answers and question topic are linking to an undefined page, resulting in an error.
 
+2. Text box can stretch beyond the boundaries of the form submission window. 
+
 
 
 ###Planned future updates:
