@@ -17,8 +17,11 @@ Project can be accessed at: https://warm-mesa-2628.herokuapp.com/
 -------
 1. Prevent PostGreSQL DB 'question_id' from auto-incrementing past the value of total number of submitted questions. 
 
-
 2. Route a link to the index page.
+
+3. Display the number of answers submitted to each individual question on the index page. 
+
+4. Display Gravatar username instead of email address when applicable.  
 
 
 ###Reference:
