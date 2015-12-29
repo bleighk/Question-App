@@ -35,6 +35,11 @@
 				</div>
 			</div>
 			<% end %>
+
+	<!-- Making a ruby if statement to check for no submitted questions -->
+	<% if @answers.empty? %>
+		<div class="alert alert-info">Nothing here yet... Think you know the answer?</div>
+	<% end %>
 		</div>
 	</div>
 </div>
